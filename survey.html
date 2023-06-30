@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<title>Admission Survey Form</title>
+<body background="background.jpg" style="color:white" align="center">
+
+    <h1> Admission Survey Form</h1>
+  
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" /><br><br>
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" /><br><br>
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" /><br><br>
+        </div>
+          <div class="form-control">
+            <label for="name" id="label-name">
+                School attended
+            </label>
+            <input type="text"
+                   id="School attended"
+                    placeholder= "Enter name of your school"/><br><br>
+        </div>
+        <div class="form-control">
+            <label for="date of birth" id="label-date">
+                Date of birth
+            </label>
+            <input type="date of birth"
+                   id="date of birth"
+                   placeholder="Enter date of your birth " /><br><br>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which course you are interested in? 
+            </label>
+            <select name="role" id="role">
+                <option value="Computer science">Computer science</option>
+                <option value="Electronics and Telecommunications">Electronics and Telecommunications</option>
+                <option value="AI&DS">
+                    AI&DS
+                </option>
+                <option value="AI&ML">AI&ML</option><br><br>
+            </select><br><br>
+        </div>
+    DID YOU GIVE MHT-CET EXAM? 
+        <div class="form-control">
+ 
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label><br><br>
+        </div>
+  
+        <div class="form-control">
+            <label>Languages known
+                <small>(Check all that apply)</small>
+            </label>
+ 
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7"><br>
+                <input type="checkbox"<br><br>
+        </div>
+        <div class="form-control">
+            <label for="percent" id="label-percent">
+                Percent scored in MHT-CET & JEE 
+            </label>
+            <input type="percent"
+                   id="percent"/><br><br>
+        </div>
+       <div text align= "center">
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea><br><br>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button><br><br>
+    </form>
+</body>
+</html>
